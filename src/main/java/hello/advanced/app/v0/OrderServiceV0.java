@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class OrderServiceV0 {
 
-    private final OrderRepositoryV0 orderRepository;
+  private final OrderRepositoryV0 orderRepository;
 
-    public void orderItem(String itemId) {
-        orderRepository.save(itemId);
-    }
+  public void orderItem(String itemId) {
+    orderRepository.save(itemId);
+  }
 }
